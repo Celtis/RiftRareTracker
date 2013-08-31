@@ -1,0 +1,11 @@
+Identifier  = "libZoneChange"
+Name        = "libZoneChange"
+Description = "Library to identify/handle zone changes"
+Author      = "Adelea@EU-Icewatch"
+Version     = "2.02r5"
+Email       = "adelea@exyles.com"
+Environment = "2.2"
+
+RunOnStartup    = { 
+    "libZone.lua", 
+}

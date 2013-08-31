@@ -1,0 +1,30 @@
+Identifier = "Tracker"
+
+Name = "Tracker"
+
+Description = "Targets those rare monsters"
+
+Author = "Me"
+
+Email = "jon@nut.teri.es"
+
+Environment = 2.3
+
+Version = 0.1
+
+Embed = {
+["lib/libZoneChange"] = true
+}
+
+SavedVariables = {
+	Tracker_Settings = 'character'
+}
+
+Dependencies = 
+{
+libZoneChange = {"required", "before"},
+}
+
+RunOnStartup = {
+	"core.lua",
+}
